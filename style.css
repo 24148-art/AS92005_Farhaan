@@ -1,8 +1,25 @@
+body,h1,h2,h3,h4,h5,h6 p {
+    font-family: cursive, monospace;
+    color: white;
+}
+
 body {
     background-color: #d5c672;
+}
+
+#Logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.Logo {
+    width: 375px;
+    height: auto;
 }
 
 #myNavbar a {
     font-family: cursive, monospace;
     font-size: 18.5px;
 }
+
