@@ -1,16 +1,8 @@
-#flex-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  background-color: DodgerBlue;
+body {
+    background-color: #d5c672;
 }
-#flex-container div {
-  background-color: #f1f1f1;
-  width: 100px;
-  height: 10px;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  font-size: 15px;
+
+#myNavbar a {
+    font-family: cursive, monospace;
+    font-size: 18.5px;
 }
