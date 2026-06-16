@@ -1,10 +1,23 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.adlam-display-regular {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body,h1,h2,h3,h4,h5,h6 p {
-    font-family: cursive, monospace;
+    font-family: "ADLaM Display", monospace;
     color: white;
 }
 
 body {
-    background-color: #d5c672;
+        background-color: orange;
+    <!--background-color: #d5c672;-->
 }
 
 #Logo-container {
@@ -19,7 +32,12 @@ body {
 }
 
 #myNavbar a {
-    font-family: cursive, monospace;
+    font-family: "ADLaM Display", monospace;
     font-size: 18.5px;
+}
+
+.Divider {
+    display: flex;
+    margin-top: -410px;
 }
 
