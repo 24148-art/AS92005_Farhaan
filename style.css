@@ -21,29 +21,24 @@ body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
 }
 
 #myNavbar a {
-    font-size: 18.5px;
-}
-
-body {
-        background-color: orange;
-    <!--background-color: #d5c672;-->
+    font-size: 24px;
 }
 
 #Logo-container {
     display: flex;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 55px;
 }
 
 .Logo {
-    width: 375px;
+    width: 450px;
     height: auto;
 }
 
 #Border {
     position: fixed;
     width: 100vw;
-    margin-top: 17em;
+    margin-top: 13em;
     padding: 260px 0px !important;
 }
 
@@ -53,6 +48,38 @@ body {
     left: 0;
     width: 100vw;
     margin-top: -20em;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+    margin-top: 12em;
+}
+
+.button-row a img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+    margin-top: -2em;
+}
+
+.image-row img {
+    width: 395px;
+    height: auto;
+    display: block;
 }
 
 .Divider {
