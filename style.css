@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   overflow: hidden;
+  background-color: #d5c672
 }
 
 body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
@@ -35,19 +36,12 @@ body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
     height: auto;
 }
 
-#Border {
-    position: fixed;
-    width: 100vw;
-    margin-top: 13em;
-    padding: 260px 0px !important;
-}
-
 .BG-image {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    margin-top: -20em;
+    margin-top: -20vw;
 }
 
 .button-row {
@@ -57,7 +51,7 @@ body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
     padding: 20px;
     position: relative;
     z-index: 100;
-    margin-top: 12em;
+    margin-top: 11em;
 }
 
 .button-row a img {
@@ -84,7 +78,7 @@ body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
 
 .Divider {
     position: fixed;
-    top: -10%;
+    top: -6vw;
     left: 0%;
     width: 100%;
     max-width: 100%;
