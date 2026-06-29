@@ -16,6 +16,11 @@ body,h1,h2,h3,h4,h5,h6, p, #myNavbar, a {
   font-style: normal;
 }
 
+.bg-nav-green {
+    background-color: #416d34;
+}
+
+
 #myNavbar, #Logo-container, .w3-container {
     position: relative;
     z-index: 10;
