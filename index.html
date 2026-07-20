@@ -11,29 +11,36 @@
 </head>
 <body>
 <div class="page">
-    <div class="w3-top w3-center">
+    <div class="w3-top w3-center"> <!-- This is the code for the nav bar -->
       <div class="w3-bar" id="myNavbar">
-        <a>
         <a href="About.html" class="w3-bar-item w3-button" style="color: white;">About</a>
-        <a href="External-resources.html" class="w3-bar-item w3-button" style="color: white;"><i class="fa fa-user"></i> External resources</a>
+
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa fa-user"></i> External resources</button>
+          <div class="dropdown-content">
+            <a href="https://www.chivecharities.nz/charity-type/environmental">Chive charities</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+
         <a href="Support/Contact-us.html" class="w3-bar-item w3-button" style="color: white;"><i class="fa fa-th"></i> Support/Contact us</a>
-        </a>
       </div>
     </div>
 
-    <div id="Logo-container" >
+    <div id="Logo-container" > <!-- Code for the logo -->
         <img src="images/Re_Earth Logo - Copy.png" class="Logo" alt="Re-Earth-logo">
     </div>
 
-    <div class=" w3-center w3-xlarge w3-container">
+    <div class=" w3-center w3-xlarge w3-container"> <!-- Text under the logo -->
         <p style="position: relative; top: -21px; font-size: 21px;">Build a civilization in a simulated ecosystem.</p>
     </div>
 
-    <img src="images/BG-image 2.png" class="BG-image">
+    <img src="images/BG-image 2.png" class="BG-image"> <!-- These two images are the background image and lumpy thing in the front -->
 
     <img src="images/Diving bar_copy.png" class="Divider">
 
-    <div class="button-row">
+    <div class="button-row"> <!-- The row of clickable buttons -->
         <a href="https://www.nintendo.com/au/nintendo-eshop/?srsltid=AfmBOooNH5ndlp10lnuTW0T6DVHtIelOV6CK5hHVCsimKVdeHz7NZEo8" target="_blank" class="img-button">
             <img src="images/Nintendo-button - Copy.png" alt="Nintendo button">
         </a>
@@ -47,7 +54,7 @@
         </a>
     </div>
 
-    <div class="image-row">
+    <div class="image-row"> <!-- The row of gameplay images -->
         <img src="images/Description 1 - Copy.png" class="image">
         <img src="images/Description 2 - Copy.png" class="image">
         <img src="images/Description 3 - Copy.png" class="image">
