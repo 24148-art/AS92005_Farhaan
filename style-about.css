@@ -18,11 +18,13 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
 
 .bg-nav-green {
     background-color: #416d34;
+     overflow: visible !important;
 }
 
 #myNavbar, #Logo-container, .w3-container {
     position: relative;
-    z-index: 10;
+    z-index: 200;
+     overflow: visible !important;
 }
 
 #myNavbar a {
@@ -55,18 +57,81 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     flex-wrap: nowrap;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* The Blue Clickable/Hoverable Button */
+.dropbtn {
+  background-color: #db9334;
+  color: white;
+  padding: 8px 16px;
+  font-size: 24px;
+  font-family: "ADLaM Display", monospace;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* The Floating Menu Container Box */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  min-width: 220px;
+  z-index: 10005 !important;
+  border-radius: 4px;
+}
+
+/* Individual Links Inside The White Box Area */
+.dropdown-content a {
+  color: #333333 !important; /* Force black text against white background */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px !important;
+  text-align: left;
+}
+
+/* Changes gray level during a selection item highlight */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Master triggers to fire up visual layout box on hover element state */
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #c78530;
+}
+
 .Vid {
     position: relative;
     left: 30%;
     width: 50em;
     height: auto;
-    z-index: 100;
     margin-top: 5em;
+}
+
+.About_Text {
+    position: fixed;
+    left: 59vw;
+    width: 40vw;
+    height: auto;
+    margin-top: 30vw;
+    z-index: 1;
 }
 
 .Divider {
     position: fixed;
-    top: 0vw;
+    top: 4.7vw;
     left: 0vw;
     width: 100%;
     max-width: 100%;
