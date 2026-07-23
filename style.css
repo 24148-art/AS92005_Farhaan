@@ -16,7 +16,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
   font-style: normal;
 }
 
-/* Forces the bar container to sit on the very top of your game background graphics */
+/* Forces the bar container to sit on the very top of game background graphics */
 .w3-top {
     z-index: 9999 !important;
 }

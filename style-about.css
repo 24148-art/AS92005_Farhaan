@@ -129,6 +129,28 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     z-index: 1;
 }
 
+#Logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    left: -2em;
+    position: relative;
+    z-index: 10;
+}
+.Logo {
+    width: 370px;
+    height: auto;
+}
+
+.sixthimage {
+    position: relative;
+    z-index: 1;
+    margin-top: -27vw;
+    left: 22.5vw;
+    width: 75%;
+    height: auto;
+}
+
 .Divider {
     position: fixed;
     top: 4.7vw;
@@ -136,4 +158,5 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     width: 100%;
     max-width: 100%;
     height: auto;
+    z-index: 0;
 }
