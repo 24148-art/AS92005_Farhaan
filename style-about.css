@@ -168,6 +168,23 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     height: auto;
 }
 
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+    margin-top: -18.6em;
+    left: -10em;
+}
+
+.image-row img {
+    width: 395px;
+    height: auto;
+    display: block;
+}
+
 .Divider {
     position: fixed;
     top: 4.7vw;
