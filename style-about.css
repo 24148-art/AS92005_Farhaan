@@ -142,12 +142,29 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     height: auto;
 }
 
-.sixthimage {
+.firstimage {
     position: relative;
     z-index: 1;
-    margin-top: -27vw;
-    left: 22.5vw;
-    width: 75%;
+    left: 3vw;
+    top: -27vw;
+    width: 25%;
+    height: auto;
+}
+
+.secondimage {
+    position: relative;
+    z-index: 1;
+    left: 23cm;
+    top: -27vw;
+    width: 25%;
+    height: auto;
+}
+
+.sixthimage {
+    position: fixed;
+    z-index: 1;
+    left: 39vw;
+    width: 19%;
     height: auto;
 }
 
