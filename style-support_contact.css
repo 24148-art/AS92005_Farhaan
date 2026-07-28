@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   overflow: hidden;
-  background-color: #589046;
+  background-color: lightblue;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
@@ -16,8 +16,8 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
   font-style: normal;
 }
 
-.bg-nav-green {
-    background-color: #416d34;
+.bg-nav-trans {
+    background-color: rgb(255 255 255 / 0.3);
      overflow: visible !important;
 }
 
@@ -113,87 +113,18 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
   background-color: #c78530;
 }
 
-.Vid {
-    position: relative;
-    left: 30%;
+.box_1 {
+    width: 442px;
+    height: 600px;
+    background-color: #fff6e4;
+    transform:  translate(400px, 20px);
+    border-radius: 20px;
+}
+
+.box_2 {
     width: 50em;
-    height: auto;
-    margin-top: 5em;
-}
-
-.About_Text {
-    position: fixed;
-    left: 59vw;
-    width: 40vw;
-    height: auto;
-    margin-top: 30vw;
-    z-index: 1;
-}
-
-#Logo-container {
-    display: flex;
-    justify-content: center;
-    margin-top: -20px;
-    left: -2em;
-    position: relative;
-    z-index: 10;
-}
-.Logo {
-    width: 370px;
-    height: auto;
-}
-
-.firstimage {
-    position: relative;
-    z-index: 1;
-    left: 3vw;
-    top: -27vw;
-    width: 25%;
-    height: auto;
-}
-
-.secondimage {
-    position: relative;
-    z-index: 1;
-    left: 23cm;
-    top: -27vw;
-    width: 25%;
-    height: auto;
-}
-
-.sixthimage {
-    position: fixed;
-    z-index: 1;
-    left: 39vw;
-    width: 19%;
-    height: auto;
-}
-
-.image-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    padding: 20px;
-    position: relative;
-    z-index: 100;
-    margin-top: -35em;
-    left: 9em;
-}
-
-.image-row img {
-    width: 260px;
-    max-width: 20%;
-    height: auto;
-    display: block;
-}
-
-.Divider {
-    position: fixed;
-    top: 4.7vw;
-    left: 0vw;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    z-index: 0;
+    height: 40em;
+    background-color: #fff6e4;
+    transform:  translate(62em, -38.6em);
+    border-radius: 20px;
 }
