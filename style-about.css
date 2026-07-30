@@ -1,22 +1,22 @@
-html, body {
+html, body { /* Sets the background colour of the page */
   margin: 0;
   height: 100%;
   overflow: hidden;
   background-color: #589046;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
+body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a { /* Sets the font and the text colour */
     font-family: "ADLaM Display", monospace;
     color: white;
 }
 
-.adlam-display-regular {
+.adlam-display-regular { /* Font setup */
   font-family: "ADLaM Display", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
-.bg-nav-green {
+.bg-nav-green { /* Background colour for Nav bar */
     background-color: #416d34;
      overflow: visible !important;
 }
@@ -30,7 +30,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
 #myNavbar a {
     font-size: 24px;
 }
-
+ /* Flexbox code for nav-bar */
 .custom-nav-flex {
     display: flex !important;
     align-items: center;

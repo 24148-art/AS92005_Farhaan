@@ -1,16 +1,16 @@
-html, body {
+html, body { /* Sets the background colour of the page */
   margin: 0;
   height: 100%;
   overflow: hidden;
   background-color: #d5c672;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
+body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a { /* Sets the font and the text colour */
     font-family: "ADLaM Display", monospace;
     color: white;
 }
 
-.adlam-display-regular {
+.adlam-display-regular { /* Font setup */
   font-family: "ADLaM Display", system-ui;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +28,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     overflow: visible !important;
 }
 
-#myNavbar a {
+#myNavbar a { /* navbar font size */
     font-size: 24px;
 }
 
@@ -88,7 +88,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
   background-color: #c78530;
 }
 
-#Logo-container {
+#Logo-container { /* Flexbox for the logo */
     display: flex;
     justify-content: center;
     margin-top: 55px;
@@ -115,7 +115,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     z-index: 1;
 }
 
-.Divider {
+.Divider { /* Code for divider */
     position: fixed;
     top: 17vw;
     width: 100%;
@@ -124,7 +124,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     z-index: 2;
 }
 
-.button-row {
+.button-row { /* flexbox and additionals for clickable button row */
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -140,7 +140,7 @@ body, h1, h2, h3, h4, h5, h6, p, #myNavbar, a {
     display: block;
 }
 
-.image-row {
+.image-row { /* flexbox and additionals for gameplay image row */
     display: flex;
     justify-content: center;
     gap: 20px;
